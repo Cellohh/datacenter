@@ -199,7 +199,7 @@ hr {
 .fancy-text {
     display: inline-block;
     position: absolute;
-    top: 4%;
+    top: 5.5%;
     width: 90%;
     right: 45%;
     text-align: center;
@@ -229,7 +229,7 @@ hr {
 .fancy-text-2 {
     display: inline-block;
     position: absolute;
-    top: 147.5%;
+    top: 189.5%;
     right: 45%;
     text-align: center;
     transform: translate(50%,-50%);
@@ -323,11 +323,12 @@ subtitle {
 }
 
     hr {
+    display: none;
     position: absolute;
     border-top: 5px solid orange;
     border-radius: 5px;
     width: 100%;
-    top: 143.5%;
+    top: 189.5%;
 
 }
 
@@ -372,14 +373,15 @@ subtitle {
     .by-me {
     position: absolute;
     width: 100%;
-    font-size: 22px;
+    font-size: 16px;
     font-family: monospace;
     font-weight: 700;
-    top: 2850px; 
+    top: 3200px; 
     right: -0.01%;
     color: whitesmoke;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .by-me a{
